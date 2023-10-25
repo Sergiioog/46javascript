@@ -1,22 +1,15 @@
 //Escribe un programa que pida una 
 //frase y escriba cuantas veces aparece la letra a
 
-var fraseUsuario = prompt("Escriba su frase: ");
-var arrayFrase = [''];
 
-for( let i = 0; i < fraseUsuario.length; i++ ) {
-    arrayFrase.push(fraseUsuario.charAt(i));    
-    console.log(arrayFrase);
-}
+ var respuestaUsuario = prompt("Introduzca su frase: ");
+ var arrayUsuario = [];
+ var cont = 0;
 
-
-
-
- for ( let c = 0; c < arrayFrase.length; c++ ) {
-    let cont = 0;
-     console.log(`El valor de cont es: ${cont}`);
-     if (arrayFrase[c] === 'a') {
-         cont ++;
-     }
-     console.log(`La frase tiene ${cont} a`);
+ for (let i = 0; i < respuestaUsuario.length; i++) {
+    arrayUsuario.push(respuestaUsuario[i]);
+    if(arrayUsuario[i] === 'a') {
+        cont++;
+    }
  }
+ console.log(`En la frase hay ${cont} 'a'`); 
