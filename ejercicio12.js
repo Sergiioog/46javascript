@@ -25,4 +25,4 @@ for (let i = 0; i < respuestaUsuario.length; i++) {
         console.log(arrayUsuario[i]);
    }
 }
-console.log(`En la frase hay ${contA} 'a', ${contE} 'e', ${contI} 'i', ${contO} 'o', ${contU} 'u'`); 
+document.write(`En la frase hay ${contA} 'a', ${contE} 'e', ${contI} 'i', ${contO} 'o', ${contU} 'u'`); 
